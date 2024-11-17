@@ -1,0 +1,19 @@
+
+li{
+    color:black
+}
+
+button {
+}
+
+.btn-outline-primary{
+    background-color: #4faf29;
+    color: rgb(255, 255, 255);
+    border-color: #236d34 !important;
+}
+
+.btn-primary {
+    background-color: #4faf29 !important; /* Color verde */
+    border-color: #236d34 !important;
+}
+
