@@ -1,5 +1,3 @@
-
-
 /* NAV*/
 nav {
     background-color: #f0f8f0; 
@@ -36,18 +34,15 @@ nav {
 
 /*BOTONES*/
 .btn-outline-primary{
-    background-color: #4faf29;
+    background-color: rgb(56, 94, 81) !important; 
     color: rgb(255, 255, 255);
     border-color: #236d34 !important;
 }
 
-.btn-primary {
-    background-color: #4faf29 !important; 
-    border-color: #236d34 !important;
-}
+
 
 .btn-primary {
-    background-color: #4faf29 !important; 
+    background-color: rgb(181, 252, 228) !important; 
     border-color: #236d34 !important;
 }
 
