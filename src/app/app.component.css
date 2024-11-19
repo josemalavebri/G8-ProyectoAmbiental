@@ -1,11 +1,40 @@
 
-li{
-    color:black
+
+/* NAV*/
+nav {
+    background-color: #f0f8f0; 
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+    
+.nav-link {
+    color: #3d6b3d; 
+    font-weight: 500; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+    
+.nav-link:hover {
+    color: #2d5232; 
+    background-color: #e6f2e6; 
+    border-radius: 5px;
+    text-decoration: none; 
+}
+    
+.link-secondary {
+    color: #4b804b;
 }
 
-button {
+/*ICONO*/
+.bi:hover {
+    color: #2d5232; 
+    background-color: #e6f2e6; 
+    border-radius: 5px;
+    text-decoration: none; 
 }
 
+
+/*BOTONES*/
 .btn-outline-primary{
     background-color: #4faf29;
     color: rgb(255, 255, 255);
@@ -13,7 +42,12 @@ button {
 }
 
 .btn-primary {
-    background-color: #4faf29 !important; /* Color verde */
+    background-color: #4faf29 !important; 
+    border-color: #236d34 !important;
+}
+
+.btn-primary {
+    background-color: #4faf29 !important; 
     border-color: #236d34 !important;
 }
 
