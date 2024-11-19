@@ -1,16 +1,9 @@
 .activity {
-    /* Sombra alrededor del contenedor */
-    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.4); /* sombra verde */
-    
-    /* Borde verde fuerte */
-    border: 2px solid #228B22; /* verde oscuro fuerte */
-
-    /* Fondo verde claro */
-    background-color: #E8F5E9; /* verde pastel claro */
-
-    /* Opcionales: Espaciado y bordes redondeados */
-    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.4);
+    border: 2px solid #228B22; 
+    background-color: #E8F5E9; 
+    padding: 20px; 
     margin: 10px;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
 }
 
