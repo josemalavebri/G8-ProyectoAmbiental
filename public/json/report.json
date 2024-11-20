@@ -1,0 +1,10 @@
+[
+  {
+      "tipoEvento": "Reciclaje",
+      "nombreLugar": "Parque Central",
+      "tituloEvento": "Día del Reciclaje",
+      "fecha": "2024-11-15",
+      "descripcion": "Se realizaron actividades de separación de residuos, charlas sobre reciclaje y recolección de materiales.",
+      "cantidadPersonas": 50
+  }
+]

@@ -1,11 +1,21 @@
 
 <div class="container ">
-    <div class="fondoEstatico p-4 p-md-5 mb-4 rounded ">
-        <div class="col-lg-6 px-0">
-            <h3 class="">Evento evento evento evento</h3>
-            <div class="mb-1 text-body-secondary">Nov 12</div>
-            <p class="lead my-3">Reportando de algo con mucho texto con mucho texto 121212112121212121212121212</p>
-            <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
-        </div>
-      </div>
+    
+    @if (reportes.length>0) {
+        @for (item of reportes; track $index) {
+            <div class="fondoEstatico p-4 p-md-5 mb-4 rounded ">
+                <div class="col-lg-6 px-0">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">{{item.tipoEvento}}</strong>
+                    <strong class="text-primary-emphasis"> | </strong>
+                        <strong class="d-inline-block mb-2 text-primary-emphasis"> {{item.nombreLugar}}</strong>
+                    <strong class="text-primary-emphasis"> | </strong>
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">{{item.cantidadPersonas}} Personas</strong>
+                    <h3 class="">{{item.tituloEvento}}</h3>
+                    <div class="mb-1 text-body-secondary">{{item.fecha|date}}</div>
+                    <p class="lead my-3">{{item.descripcion}}</p>
+                    <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+                </div>
+              </div>
+        }
+    }
 </div>
